@@ -1,0 +1,78 @@
+{
+  "target_name": "conductivity",
+  "best_params": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "n_estimators": 500,
+    "subsample": 0.7
+  },
+  "best_cv_score": 0.23916456719906654,
+  "cv_r2_mean": 0.9366784484367928,
+  "cv_r2_std": 0.005516280092967778,
+  "cv_rmse_mean": 0.483441654752752,
+  "test_metrics": {
+    "MAE": 0.48111167674564487,
+    "RMSE": 0.685539184292674,
+    "R2": 0.8714083448045633
+  },
+  "feature_importance": {
+    "MolWt": 0.1986851692199707,
+    "HeavyAtomCount": 0.08676275610923767,
+    "NumRotatableBonds": 0.011705785989761353,
+    "NumHDonors": 0.02080392651259899,
+    "NumHAcceptors": 0.03218536823987961,
+    "NumAromaticRings": 0.021602753549814224,
+    "NumSaturatedRings": 0.00828996580094099,
+    "NumAliphaticRings": 0.0,
+    "RingCount": 0.013021273538470268,
+    "TPSA": 0.0753999873995781,
+    "MolLogP": 0.018994510173797607,
+    "NumHeteroatoms": 0.03742893040180206,
+    "salt_LITFSI": 0.05552151799201965,
+    "salt_LITFO": 0.02765677124261856,
+    "salt_LICLO4": 0.01241046842187643,
+    "salt_LIASF6": 0.0056685879826545715,
+    "salt_LIPF6": 0.0922943502664566,
+    "salt_freq_rank": 0.01134704239666462,
+    "is_other_salt": 0.02288699708878994,
+    "molality": 0.03096621297299862,
+    "temperature": 0.04537168890237808,
+    "has_heteroatom": 0.033004939556121826,
+    "Tg": 0.024812694638967514,
+    "T_minus_Tg": 0.11317829042673111,
+    "is_glassy": 0.0
+  },
+  "salt_meta": {
+    "top_salts": [
+      "LITFSI",
+      "LITFO",
+      "LICLO4",
+      "LIASF6",
+      "LIPF6"
+    ],
+    "freq_salts": [
+      "LITDI",
+      "LIBF4",
+      "LIBOB",
+      "CLO4",
+      "TFSI",
+      "LIFSI",
+      "BETI",
+      "LISBF6",
+      "LIBETI",
+      "LII"
+    ],
+    "freq_map": {
+      "LITDI": 0.0351213282247765,
+      "LIBF4": 0.029941819213849866,
+      "LIBOB": 0.02234993614303959,
+      "CLO4": 0.021640414360720873,
+      "TFSI": 0.019511849013764723,
+      "LIFSI": 0.014332340002838086,
+      "BETI": 0.0102880658436214,
+      "LISBF6": 0.008869022278983965,
+      "LIBETI": 0.006172839506172839,
+      "LII": 0.005605222080317866
+    }
+  }
+}

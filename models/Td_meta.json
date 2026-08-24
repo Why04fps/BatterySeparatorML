@@ -1,0 +1,32 @@
+{
+  "target_name": "Td",
+  "best_params": {
+    "learning_rate": 0.01,
+    "max_depth": 5,
+    "n_estimators": 500,
+    "subsample": 0.7
+  },
+  "best_cv_score": 0.3721923551601566,
+  "cv_r2_mean": 0.6435649893617266,
+  "cv_r2_std": 0.06355768960645364,
+  "cv_rmse_mean": 58.00843852301762,
+  "test_metrics": {
+    "MAE": 39.73481903130452,
+    "RMSE": 54.592450241771004,
+    "R2": 0.6674017818441793
+  },
+  "feature_importance": {
+    "MolWt": 0.027069173753261566,
+    "HeavyAtomCount": 0.03449685499072075,
+    "NumRotatableBonds": 0.07756564766168594,
+    "NumHDonors": 0.06350824981927872,
+    "NumHAcceptors": 0.07671521604061127,
+    "NumAromaticRings": 0.08685524761676788,
+    "NumSaturatedRings": 0.1113278791308403,
+    "NumAliphaticRings": 0.04913963004946709,
+    "RingCount": 0.3551877737045288,
+    "TPSA": 0.045416057109832764,
+    "MolLogP": 0.033924490213394165,
+    "NumHeteroatoms": 0.038793791085481644
+  }
+}

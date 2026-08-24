@@ -1,0 +1,32 @@
+{
+  "target_name": "Tg",
+  "best_params": {
+    "learning_rate": 0.01,
+    "max_depth": 5,
+    "n_estimators": 1000,
+    "subsample": 0.7
+  },
+  "best_cv_score": 0.7587439564457943,
+  "cv_r2_mean": 0.839141635636181,
+  "cv_r2_std": 0.009973529224146216,
+  "cv_rmse_mean": 43.70208660608286,
+  "test_metrics": {
+    "MAE": 32.5249368729904,
+    "RMSE": 43.56827410871756,
+    "R2": 0.8421491403365204
+  },
+  "feature_importance": {
+    "MolWt": 0.010785112157464027,
+    "HeavyAtomCount": 0.018160810694098473,
+    "NumRotatableBonds": 0.08710752427577972,
+    "NumHDonors": 0.05414854362607002,
+    "NumHAcceptors": 0.016762113198637962,
+    "NumAromaticRings": 0.038767240941524506,
+    "NumSaturatedRings": 0.011697226203978062,
+    "NumAliphaticRings": 0.010446293279528618,
+    "RingCount": 0.7013984322547913,
+    "TPSA": 0.0216713584959507,
+    "MolLogP": 0.01466151513159275,
+    "NumHeteroatoms": 0.014393783174455166
+  }
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 原始数据（体积大或需授权，仅保留清洗后的 CSV）
+data/*.xlsx
+
+# Streamlit
+.streamlit/
+
+# 系统文件
+Thumbs.db
+.DS_Store
